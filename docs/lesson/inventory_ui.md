@@ -36,6 +36,8 @@ On va maintenant créer notre interface d'inventaire ! 👜🎒
 
 Vous pouvez télécharger les textures nécessaires ici :
 
+- ![🎒 Texture d'inventaire](../images/InventoryRect.png)
+- ![📦 Texture de slot vide](../images/InventorySlot.png)
 
 
 ---
