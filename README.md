@@ -1,7 +1,7 @@
 # 🌸 Zelda-Like Creation Guide 💖
 
 <p align="center">
-  <img src="https://lysdora.github.io/zelda-like-creation-guide/images/banner.png" alt="Zelda-Like Creation Guide" width="800"/>
+  <img src="https://lysdora.github.io/zelda-like-creation-guide/images/banniere.png" alt="Zelda-Like Creation Guide" width="800"/>
 </p>
 
 Un guide complet pour créer un jeu de type Zelda avec **Godot Engine**. 🎮✨
