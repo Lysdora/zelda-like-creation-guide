@@ -36,8 +36,9 @@ On va maintenant créer notre interface d'inventaire ! 👜🎒
 
 Vous pouvez télécharger les textures nécessaires ici :
 
-- ![🎒 Texture d'inventaire](../images/InventoryRect.png)
-- ![📦 Texture de slot vide](../images/InventorySlot.png)
+- ![🎒 Texture d'inventaire](https://lysdora.github.io/zelda-like-creation-guide/images/InventoryRect.png)
+- ![📦 Texture de slot vide](https://lysdora.github.io/zelda-like-creation-guide/images/InventorySlot.png)
+
 
 
 ---
