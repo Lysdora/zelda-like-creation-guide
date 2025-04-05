@@ -20,18 +20,16 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 ## 🌸 Fonctionnalités du Guide
 
 - 📜 **Leçons détaillées** avec explications, captures d'écran et code.
-- 🕹️ **Tutoriels pratiques** pour chaque fonctionnalité, expliqués avec douceur. 
+- 🕹️ **Tutoriels pratiques** pour chaque fonctionnalité. 
 - 🎒 **Création d'un inventaire mignon**, collecte d'objets, dialogues, PNJ...
 - 📚 **Sommaire clair et bien organisé** pour trouver facilement ce que tu cherches.
-- 🚀 **Compatibilité mobile et PC** pour une expérience complète.
+
 
 ---
 
 ## 📚 Sommaire des Guides
 
-<p align="center">
-  <img src="https://lysdora.github.io/zelda-like-creation-guide/images/titlescreen_pastel.png" alt="Sommaire des Guides" width="600"/>
-</p>
+
 
 - [🕹️ Mouvement top-down (4 directions)](./docs/lesson/mouvement-topdown.md)
 - [🍏 Créer un objet ramassable (signal + queue_free)](./docs/lesson/collectable_collection.md)
