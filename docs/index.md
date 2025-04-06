@@ -15,6 +15,8 @@ Bienvenue sur mon guide de création de jeu Zelda-Like avec Godot ! 🌟
 - [🚶 Déplacement simple d’un PNJ entre deux points](./lesson/pnj_deplacement_base.md)
 - [📋 Accéder aux nodes dans Godot (nom du node, body.name)](./lesson/acceder-nodes-godot.md)
 - [🎮 Collection d'objets (Item Collect)](./lesson/item_collect.md)
+- [💻 Configurer Visual Studio Code pour Godot 4.4.1 (GDScript)](./lesson/vscode_godot_setup_guide.md)
+
 
 ---
 
