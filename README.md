@@ -29,14 +29,33 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 
 ## 📚 Sommaire des Guides
 
+---
 
+### 🎮 Contrôles du joueur
 
-- [🕹️ Mouvement top-down (4 directions)](./docs/lesson/mouvement-topdown.md)
-- [🍏 Créer un objet ramassable (signal + queue_free)](./docs/lesson/collectable_collection.md)
-- [🎒 Créer une interface d'inventaire mignonne](./docs/lesson/inventory_ui.md)
-- [📋 Accéder aux nodes dans Godot](./docs/lesson/acceder-nodes-godot.md)
-- [🧰 Créer un coffre trop chou avec un loot](./docs/lesson/coffre-avec-loot-v1.md)
-- [🚶 Déplacement d’un PNJ adorable (patrouille)](./docs/lesson/pnj_deplacement_base.md)
+- 🕹️ [Mouvement top-down (4 directions)](./docs/lesson/mouvement-topdown.md)
+- 🍏 [Créer un objet ramassable (signal + queue_free)](./docs/lesson/collectable_collection.md)
+- 🎒 [Créer une interface d'inventaire mignonne](./docs/lesson/inventory_ui.md)
+
+---
+
+### 🧱 Bases de Godot (Nodes & Navigation)
+
+- 📋 [Accéder aux nodes dans Godot](./docs/lesson/acceder-nodes-godot.md)
+
+---
+
+### 🗝️ Objets interactifs & loot
+
+- 🧰 [Créer un coffre trop chou avec un loot](./docs/lesson/coffre-avec-loot-v1.md)
+
+---
+
+### 👫 PNJ & Ennemis
+
+- 🚶 [Déplacement d’un PNJ adorable (patrouille)](./docs/lesson/pnj_deplacement_base.md)
+- 🐌 [Créer un ennemi qui se déplace](./docs/lesson/creation_enemy_slime_godot_4.4_complet.md)
+
 
 ---
 
@@ -45,7 +64,7 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 
 ## 🌷 Assets Mignons
 
-- 🌼 **Shining Fields :** [Shining Fields par Gayapon sur itch.io](https://gayapon.itch.io/shining-fields) 💖
+- 🌼 
 
 ---
 
