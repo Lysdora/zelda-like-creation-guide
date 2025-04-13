@@ -24,7 +24,6 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 - 🎒 **Création d'un inventaire mignon**, collecte d'objets, dialogues, PNJ...
 - 📚 **Sommaire clair et bien organisé** pour trouver facilement ce que tu cherches.
 
-
 ---
 
 ## 📚 Sommaire des Guides
@@ -56,8 +55,43 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 - 🚶 [Déplacement d’un PNJ adorable (patrouille)](./docs/lesson/pnj_deplacement_base.md)
 - 🐌 [Créer un ennemi qui se déplace](./docs/lesson/creation_enemy_slime_godot_4.4_complet.md)
 
+---
+
+
+### 🎮 Contrôles du joueur
+
+- 🧮 [Compter les objets ramassés dans la console (padawan)](./docs/lesson/compter-objets-console-padawan.md)
+- ❤️ [UI avec cœurs de vie](./docs/lesson/guide-ui-hearts.md)
+- 🎒 [Inventaire Mise à jour](./docs/lesson/inventory_guide_updated.md)
+- 🎁 [Item collectable](./docs/lesson/item_collect.md)
 
 ---
+
+### 🧱 Bases de Godot (Nodes & Navigation)
+
+- 💻 [VSCode + Godot](./docs/lesson/vscode_godot_setup_guide.md)
+
+---
+
+### 🗝️ Objets interactifs & loot
+
+- 🍏 [Collecter des objets](./docs/lesson/collectable_collection.md)
+
+---
+
+### 👫 PNJ & Ennemis
+
+- ⚔️ [Combat Player vs Slime](./docs/lesson/combat-player-vs-slime.md)
+- 🧟‍♂️ [Ennemi patrol basique](./docs/lesson/guide-enemy-patrol.md)
+- 🐌 [Créer un slime avec mort (complet)](./docs/lesson/guide-mort-complet.md)
+
+---
+
+### 🛠️ En cours de création / WIP
+
+- 🎒 [Inventaire Basique (ancien)](./docs/lesson/inventory_guide.md)
+- 🧪 [Test (à supprimer ?)](./docs/lesson/test.md)
+
 
 
 ---
@@ -80,13 +114,3 @@ N’hésite pas à ajouter tes propres leçons ou à l'améliorer ! 🌈✨
 Ce projet est sous licence MIT. Utilise-le comme tu veux ! 🎉
 
 ---
-
-💖 **C'est encore plus joli avec une bannière douce, des captures d'écran pastel, et un sommaire bien stylé !** Tu veux que je t'aide à créer une bannière pastel girly et des captures d'écran assorties ? 🎀😊
-
-
----
-
-
-
-
-
