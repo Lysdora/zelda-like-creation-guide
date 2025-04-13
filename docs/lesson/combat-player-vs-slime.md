@@ -180,7 +180,7 @@ func die():
 
 ## 🧩 Mise en place des collisions
 
-### Configuration des Layers
+# Configuration des Collisions 🎯
 
 Dans **Project Settings > Layer Names > 2D Physics**, configure les couches comme ceci :
 
@@ -196,11 +196,34 @@ Dans **Project Settings > Layer Names > 2D Physics**, configure les couches comm
 | Élément              | Layer          | Mask                  |
 |----------------------|----------------|------------------------|
 | Player               | 1              | 2, 4                   |
+| Player HurtBox       | 0              | 4                      |
 | Player AttackArea    | 3              | 2                      |
 | Slime                | 2              | 1, 3                   |
-| Slime HitBox         | 4              | 1                      |
+| Slime HitBox         | 4              | 1, 2, 3, 4            |
 
 > 📐 Le layer détermine où l'objet **est**, et le mask détermine **ce qu'il touche** !
+
+### Explications des Collisions
+
+1. **Player** :
+   - Layer 1 : Il est sur la couche Player
+   - Mask 2, 4 : Il peut toucher les ennemis et leurs attaques
+
+2. **Player HurtBox** :
+   - Layer 0 : Pas de layer (juste une zone de détection)
+   - Mask 4 : Détecte uniquement les attaques ennemies
+
+3. **Player AttackArea** :
+   - Layer 3 : Zone d'attaque du joueur
+   - Mask 2 : Peut toucher les ennemis
+
+4. **Slime** :
+   - Layer 2 : Il est sur la couche Enemies
+   - Mask 1, 3 : Peut toucher le joueur et ses attaques
+
+5. **Slime HitBox** :
+   - Layer 4 : Zone d'attaque ennemie
+   - Mask 1, 2, 3, 4 : Peut tout détecter (à optimiser)
 
 ---
 
