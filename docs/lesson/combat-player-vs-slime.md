@@ -199,7 +199,7 @@ Dans **Project Settings > Layer Names > 2D Physics**, configure les couches comm
 | Player HurtBox       | 0              | 4                      |
 | Player AttackArea    | 3              | 2                      |
 | Slime                | 2              | 1, 3                   |
-| Slime HitBox         | 4              | 1, 2, 3, 4            |
+| Slime HitBox         | 4              | 1                      |
 
 > 📐 Le layer détermine où l'objet **est**, et le mask détermine **ce qu'il touche** !
 
@@ -223,7 +223,7 @@ Dans **Project Settings > Layer Names > 2D Physics**, configure les couches comm
 
 5. **Slime HitBox** :
    - Layer 4 : Zone d'attaque ennemie
-   - Mask 1, 2, 3, 4 : Peut tout détecter (à optimiser)
+   - Mask 1 : Ne peut toucher que le joueur
 
 ---
 
