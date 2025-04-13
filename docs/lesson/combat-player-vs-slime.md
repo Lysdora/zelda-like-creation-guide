@@ -384,16 +384,15 @@ func handleCollision():
 
 #-----SYSTÈME DE SANTÉ ET DÉGÂTS 💔-----
 func _on_hurt_box_area_entered(area):
-	if area.name == "HitBox":
-		if hurt_cooldown_timer <= 0 and HealthManager.current_health > 0:
-			HealthManager.lose_health()
-			$HurtSound.play()
-			emit_signal("player_hurt")
-			hurt_cooldown_timer = hurt_cooldown_duration
-			if HealthManager.current_health == 0:
-				handle_player_death()
-		else:
-			print("Touché, mais cooldown actif ou déjà mort.")
+	if hurt_cooldown_timer <= 0 and HealthManager.current_health > 0:
+		HealthManager.lose_health()
+		$HurtSound.play()
+		emit_signal("player_hurt")
+		hurt_cooldown_timer = hurt_cooldown_duration
+		if HealthManager.current_health == 0:
+			handle_player_death()
+	else:
+		print("Touché, mais cooldown actif ou déjà mort.")
 
 #-----MORT DU JOUEUR 💀-----
 func handle_player_death():
@@ -420,6 +419,7 @@ func _on_attack_area_body_entered(body: Node2D) -> void:
 		# Option: effet visuel ou son lors d'un coup réussi
 		if has_node("HitEnemySound"):
 			$HitEnemySound.play()
+
 
 ```
 
@@ -562,6 +562,13 @@ func spawn_damage_number(amount):
 	# damage_popup.amount = amount
 	# damage_popup.position = position + Vector2(0, -20)
 	# get_parent().add_child(damage_popup)
+	pass
+
+
+func _on_hit_box_area_entered(area: Area2D) -> void:
+	if area.get_parent().name == "Player":
+		area.get_parent()._on_hurt_box_area_entered($HitBox)
+
 	pass
 
 ```
