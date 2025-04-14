@@ -84,6 +84,7 @@ Chaque leçon est conçue pour être **accessible, fun, et pleine de bonne humeu
 - ⚔️ [Combat Player vs Slime](./docs/lesson/combat-player-vs-slime.md)
 - 🧟‍♂️ [Ennemi patrol basique](./docs/lesson/guide-enemy-patrol.md)
 - 🐌 [Créer un slime avec mort (complet)](./docs/lesson/guide-mort-complet.md)
+- 💓 [Afficher les points de vie au-dessus des ennemis](./docs/lesson/health_display-guide.md)
 
 ---
 
