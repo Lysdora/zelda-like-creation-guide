@@ -40,6 +40,7 @@ Bienvenue sur mon guide de création de jeu Zelda-Like avec Godot ! 🌟
 - 🐌 [Créer un ennemi qui se déplace (Slime Bleu)](./lesson/creation_enemy_slime_godot_4.4_complet.md)
 - 🧟‍♂️ [Ennemi patrol basique](./lesson/guide-enemy-patrol.md)
 - 🚶 [Déplacement simple d’un PNJ](./lesson/pnj_deplacement_base.md)
+- 💓 [Afficher les points de vie au-dessus des ennemis](./lesson/health_display-guide.md)
 
 ---
 
